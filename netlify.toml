@@ -1,0 +1,6 @@
+[build]
+  command = "ng build && ng run angular-test-ssr:serverless:production"
+  publish = "dist/angular-test-ssr/browser"
+
+[[plugins]]
+  package = "@netlify/plugin-angular-universal"
